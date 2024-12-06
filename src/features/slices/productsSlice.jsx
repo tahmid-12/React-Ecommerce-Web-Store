@@ -3,6 +3,7 @@ import { storeData } from "../../assets/data/dummyData";
 
 const initialState = {
     filteredProducts: JSON.parse(sessionStorage.getItem("filteredData")) || storeData
+    // filteredProducts: []
 };
 
 export const productsSlice = createSlice({
