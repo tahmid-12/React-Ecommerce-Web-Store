@@ -8,7 +8,7 @@ import {
   RouterProvider,
 } from "react-router-dom";
 import App from './App.jsx'
-import { FilteredProducts, Main } from './Components/index.js';
+import { FilteredProducts, Main, SingleProduct } from './Components/index.js';
 
 const router = createBrowserRouter([
   {
@@ -22,6 +22,10 @@ const router = createBrowserRouter([
       {
         path: "/fliteredproducts/:type",
         element: <FilteredProducts />
+      },
+      {
+        path: "/fliteredproducts/:type/:id",
+        element: <SingleProduct />
       }
     ]
   }
