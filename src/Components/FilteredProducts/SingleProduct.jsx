@@ -83,6 +83,8 @@ const SingleProduct = () => {
                       <Button color="gray" size="lg" variant="outlined" ripple={true} onClick={() => dispatch(addToCart({
                         id: item.id,
                         name: item.name,
+                        img: item.img,
+                        text: item.text,
                         size: size,
                         color: color,
                         price: item.price,
