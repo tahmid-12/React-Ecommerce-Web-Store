@@ -5,6 +5,7 @@ import NavigateButtons from "./NavigateButtons/NavigateButtons";
 import FilteredProducts from "./FilteredProducts/FilteredProducts";
 import SingleProduct from "./FilteredProducts/SingleProduct";
 import Cart from "./Cart/Cart";
+import ProductSection from "./ProductSection/ProductSection";
 
 export {
     Main,
@@ -13,5 +14,6 @@ export {
     NavigateButtons,
     FilteredProducts,
     SingleProduct,
-    Cart
+    Cart,
+    ProductSection
 }
