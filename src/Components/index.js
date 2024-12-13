@@ -6,6 +6,7 @@ import FilteredProducts from "./FilteredProducts/FilteredProducts";
 import SingleProduct from "./FilteredProducts/SingleProduct";
 import Cart from "./Cart/Cart";
 import ProductSection from "./ProductSection/ProductSection";
+import Login from "./Login/Login";
 
 export {
     Main,
@@ -15,5 +16,6 @@ export {
     FilteredProducts,
     SingleProduct,
     Cart,
-    ProductSection
+    ProductSection,
+    Login
 }
